@@ -1,0 +1,17 @@
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\bin\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.exe
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\bin\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.deps.json
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\bin\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.runtimeconfig.json
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\bin\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.dll
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\bin\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.pdb
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task_4_Memory_Scramble_Game.Form1.resources
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.csproj.GenerateResource.cache
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.AssemblyInfoInputs.cache
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.AssemblyInfo.cs
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.csproj.CoreCompileInputs.cache
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.sourcelink.json
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.dll
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\refint\Task-4-Memory-Scramble-Game.dll
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.pdb
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\Task-4-Memory-Scramble-Game.genruntimeconfig.cache
+C:\Users\Mahmoud\Source\Repos\Task-4-Memory-Scramble-Game\Task-4-Memory-Scramble-Game\obj\Debug\net8.0-windows\ref\Task-4-Memory-Scramble-Game.dll
