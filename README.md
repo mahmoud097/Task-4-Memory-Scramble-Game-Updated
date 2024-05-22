@@ -35,5 +35,5 @@ Your score and time taken will be displayed.
 ----------------------------------------
 If you have any questions or feedback, feel free to reach out to the project maintainer at 
 mahmoudebrahim097@gmail.com 
-mohamed
+Mohamed-el-feky
 
