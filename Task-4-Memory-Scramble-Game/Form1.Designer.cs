@@ -43,6 +43,7 @@
             lblStatus.Size = new Size(136, 20);
             lblStatus.TabIndex = 0;
             lblStatus.Text = "Match or MisMatch";
+            lblStatus.Click += lblStatus_Click;
             // 
             // lblTimtLeft
             // 
@@ -52,7 +53,8 @@
             lblTimtLeft.Name = "lblTimtLeft";
             lblTimtLeft.Size = new Size(143, 28);
             lblTimtLeft.TabIndex = 1;
-            lblTimtLeft.Text = "Time Left : 30";
+            lblTimtLeft.Text = "Time Left : 60";
+            lblTimtLeft.Click += lblTimtLeft_Click;
             // 
             // btnRestart
             // 

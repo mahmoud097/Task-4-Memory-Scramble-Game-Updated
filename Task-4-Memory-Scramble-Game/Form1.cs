@@ -10,7 +10,7 @@ namespace Task_4_Memory_Scramble_Game
         List<PictureBox> pictures = new List<PictureBox>();
         PictureBox picA;
         PictureBox picB;
-        int totalTime = 30;
+        int totalTime = 60;
         int countDownTime;
         bool gameOver = false;
 
@@ -22,12 +22,25 @@ namespace Task_4_Memory_Scramble_Game
 
         private void TimerEvent(object sender, EventArgs e)
         {
+            countDownTime--;
+            lblTimtLeft.Text = "Time Left: " + countDownTime;
+            if (countDownTime < 1)
+            {
+                GameOver("Time Up , You Lose!!!");
 
+                foreach (PictureBox x in pictures)
+                {
+                    if (x.Tag != null)
+                    {
+                        x.Image = Image.FromFile("pics/" + (string)x.Tag + ".png");
+                    }
+                }
+            }
         }
 
         private void RestartGameEvent(object sender, EventArgs e)
         {
-
+            RestartGame();
         }
         private void LoadPictures()
         {
@@ -113,20 +126,56 @@ namespace Task_4_Memory_Scramble_Game
             lblStatus.Text = "Mismatched: " + tries + "times.";
             lblTimtLeft.Text = "Time Left: " + totalTime;
             gameOver = false;
-            GameTimer.Stop();
+            GameTimer.Start();
             countDownTime = totalTime;
 
         }
         private void CheckPictures(PictureBox A, PictureBox B)
         {
+            if (firstChoice == secondChoice)
+            {
+                A.Tag = null;
+                B.Tag = null;
+            }
+            else
+            {
+                tries++;
+                lblStatus.Text = "Mismatched " + tries + " times.";
+            }
+            firstChoice = null;
+            secondChoice = null;
 
+            foreach (PictureBox pics in pictures.ToList())
+            {
+                if (pics.Tag != null)
+                {
+                    pics.Image = null;
+                }
+            }
+            // now lets check if all of the item have been solved 
+            if (pictures.All(o => o.Tag == pictures[0].Tag))
+            {
+                GameOver("Great Work, You Win!!!!!");
+            }
         }
-        private void GameOver()
+        private void GameOver(string msg)
+        {
+            GameTimer.Stop();
+            gameOver = true;
+            MessageBox.Show(msg + " Click Restart to Play Again. ", "Task 4 Says: ");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void lblStatus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTimtLeft_Click(object sender, EventArgs e)
         {
 
         }
