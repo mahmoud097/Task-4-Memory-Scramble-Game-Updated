@@ -8,7 +8,7 @@ Sound effects for card flips and matches
 Prerequisites :
 Visual Studio Code
 .NET Core SDK 
--------------------------------------
+------------------------------
 Clone the Repository : 
 git clone https://github.com/mahmoud097/Task-4-Memory-Scramble-Game
 -------------------------------------
