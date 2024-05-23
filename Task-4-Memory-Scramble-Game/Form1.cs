@@ -134,8 +134,7 @@ namespace Task_4_Memory_Scramble_Game
         {
             if (firstChoice == secondChoice)
             {
-                A.Tag = null;
-                B.Tag = null;
+               
             }
             else
             {
