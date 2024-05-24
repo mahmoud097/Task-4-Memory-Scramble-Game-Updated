@@ -44,7 +44,11 @@ namespace Task_4_Memory_Scramble_Game
         }
         private void LoadPictures()
         {
-           
+           int leftpos = 20;
+           int toppos = 20;
+           int rows = 0;
+
+           for (int i = 0; I < 12; i++)
 
                
               
