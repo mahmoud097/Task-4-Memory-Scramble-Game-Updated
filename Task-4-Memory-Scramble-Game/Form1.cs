@@ -54,7 +54,7 @@ namespace Task_4_Memory_Scramble_Game
            
             // Create and configure PictureBox controls
             
-           for (int i = 0; I < 12; i++)
+           for (int i = 0; i < 12; i++)
            {
                 PictureBox newPic = new PictureBox();
                 newPic.Height = 50;
@@ -67,15 +67,15 @@ namespace Task_4_Memory_Scramble_Game
                  if (rows < 3)
                 {
                     rows++;
-                    newPic.Left = leftPos;
-                    newPic.Top = topPos;
+                    newPic.Left = leftpos;
+                    newPic.Top = toppos;
                     this.Controls.Add(newPic);
-                    leftPos = leftPos + 60;
+                    leftpos = leftpos + 60;
                 }
                 if (rows == 3)
                 {
-                    leftPos = 20;
-                    topPos += 60;
+                    leftpos = 20;
+                    toppos += 60;
                     rows = 0;
                 }
             }
