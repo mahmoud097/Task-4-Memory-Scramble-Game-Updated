@@ -3,7 +3,7 @@ Hi, in this Task we will make a Task-4 Memory Scramble Game. in this game you wi
 
 Lesson objectives –
 
-Make a Task-4 Memory Scramble Game with C# and .Net in Visual Studio Use .Net Windows Form to make the game Load external files to the windows form Create a 3×3 grid in Windows form and load the pictures randomly. Dynamically add click events to the picture boxes Work with buttons, labels and timer in the game use Lists, Boolean, Integers, strings and Loops in the game
+Make a Task-4 Memory Scramble Game with C# and .Net in Visual Studio Use .Net Windows Form to make the game Load external files to the windows form Create a 3×3 grid in Windows form and load the pictures randomly. Dynamically add click events to the picture boxes Work with buttons, labels and timer in the game use Lists, Boolean, Integers, strings and Loops in the game.
 If you have any questions or feedback, feel free to reach out to the project maintainer at 
 mahmoudebrahim097@gmail.com & mahmoud.ebrahim@pg.fci-cu.edu.eg & ID: (11422022475448).
 Mohamed-el-feky = me3349210@gmail.com & ID : (11422023440213).
