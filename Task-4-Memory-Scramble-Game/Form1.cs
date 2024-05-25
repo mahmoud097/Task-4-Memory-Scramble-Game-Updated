@@ -149,7 +149,7 @@ namespace Task_4_Memory_Scramble_Game
             
             tries = 0;
             lblStatus.Text = "Mismatched: " + tries + " times.";
-            lblTimeLeft.Text = "Time Left: " + totalTime;
+            lblTimtLeft.Text = "Time Left: " + totalTime;
             gameOver = false;
             GameTimer.Start();
             countDownTime = totalTime;
